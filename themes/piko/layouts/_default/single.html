@@ -33,9 +33,8 @@
     
       <div class="post">
         
-        {{ partial "social-share.html" . }} {{- if not (.Param
-        "disableAnchoredHeadings") }} {{- partial "anchored_headings.html"
-        .Content -}} {{- else }}{{ .Content }}{{ end }}
+        {{ partial "social-share.html" . }} {{- if not (.Param "disableAnchoredHeadings") }} 
+        {{- partial "anchored_headings.html" .Content -}} {{- else }}{{ .Content }}{{ end }}
       </div>
 
       {{ partial "social-share.html" . }}
