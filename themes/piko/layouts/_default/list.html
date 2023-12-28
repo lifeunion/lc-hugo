@@ -80,8 +80,8 @@ url('{{.Params.Image}}');">
           <!-- If the user is on a page which is in the lower limit.  -->
           {{ if le $paginator.PageNumber $lower_limit }}
           <!-- If the current loop page is less than max_links. -->
-          {{ if le .PageNumber $max_links }} {{ $.Scratch.Set "page_number_flag"
-          true }} {{ end }}
+          {{ if le .PageNumber $max_links }} 
+          {{ $.Scratch.Set "page_number_flag" true }} {{ end }}
           <!-- Upper limit pages. -->
           <!-- If the user is on a page which is in the upper limit. -->
           {{ else if ge $paginator.PageNumber $upper_limit }}
