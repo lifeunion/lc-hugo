@@ -36,8 +36,8 @@ url('{{.Params.Image}}');">
           <h3>{{ .Title }}</h3>
           <hr />
           <p>
-            {{ .Description | plainify | htmlUnescape | truncate 100 }}{{ if
-            .Truncated }}...{{ end }}
+            {{ .Description | plainify | htmlUnescape | truncate 100 }}
+            {{ if .Truncated }}...{{ end }}
           </p>
         </hgroup>
         <small> {{- partial "post_meta.html" . -}} </small>
