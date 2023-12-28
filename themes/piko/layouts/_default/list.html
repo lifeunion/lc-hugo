@@ -90,9 +90,7 @@ url('{{.Params.Image}}');">
           {{$.Scratch.Set "page_number_flag" true }} {{ end }}
           <!-- Middle pages. -->
           {{ else }} 
-          {{ if and ( ge .PageNumber (sub $paginator.PageNumber $adjacent_links) ) 
-          ( le .PageNumber (add $paginator.PageNumber $adjacent_links) ) 
-          }}
+          {{ if and ( ge .PageNumber (sub $paginator.PageNumber $adjacent_links)) ( le .PageNumber (add $paginator.PageNumber $adjacent_links) ) }}
           {{ $.Scratch.Set "page_number_flag" true }} 
           {{end }} 
           {{ end }}
