@@ -25,7 +25,7 @@ To enable emoji globally, set `enableEmoji` to `true` in your site's [configurat
 
 {{< /rawhtml >}}
 
-The [Emoji cheat sheet](http://www.emoji-cheat-sheet.com/) is a useful reference for emoji shorthand codes.
+The [Emoji cheat sheet](https://www.emoji-cheat-sheet.com/) is a useful reference for emoji shorthand codes.
 
 ---
 
