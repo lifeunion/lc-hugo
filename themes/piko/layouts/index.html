@@ -35,8 +35,8 @@ url('{{.Site.Params.homepage.heroBackgroundImage}}'); ">
   </hgroup>
   <div class="container">
     <div class="grid grid-post">
-      {{ $paginator := .Paginate (where site.RegularPages  "Type" "in" site.Params.mainSections | first
-      3) }} {{ range $paginator.Pages }}
+      {{ $paginator := .Paginate (where site.RegularPages  "Type" "in" site.Params.mainSections | first 3) }}
+      {{ range $paginator.Pages }}
       <a href="{{ .RelPermalink }}">
         <article class="text-center">
         {{if .Params.Cover.Image}}
