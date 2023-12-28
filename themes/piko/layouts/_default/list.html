@@ -89,10 +89,13 @@ url('{{.Params.Image}}');">
           {{ if gt .PageNumber (sub $paginator.TotalPages $max_links) }} 
           {{$.Scratch.Set "page_number_flag" true }} {{ end }}
           <!-- Middle pages. -->
-          {{ else }} {{ if and ( ge .PageNumber (sub $paginator.PageNumber
-          $adjacent_links) ) ( le .PageNumber (add $paginator.PageNumber
-          $adjacent_links) ) }} {{ $.Scratch.Set "page_number_flag" true }} {{
-          end }} {{ end }}
+          {{ else }} 
+          {{ if and ( ge .PageNumber (sub $paginator.PageNumber $adjacent_links) ) 
+          ( le .PageNumber (add $paginator.PageNumber $adjacent_links) ) 
+          }}
+          {{ $.Scratch.Set "page_number_flag" true }} 
+          {{end }} 
+          {{ end }}
           <!-- Simple page numbers. -->
           {{ else }} {{ $.Scratch.Set "page_number_flag" true }} {{ end }}
           <!-- Output page numbers. -->
