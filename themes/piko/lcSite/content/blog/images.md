@@ -27,7 +27,7 @@ To add title, use the following syntax (`<figure>` element will be generated wit
 Or from external sources:
 
 ```md
-![This is where you put the alt](https://images.unsplash.com/photo-1520085601670-ee14aa5fa3e8 "This is the image title")
+![This is where you put the alt](http://images.unsplash.com/photo-1520085601670-ee14aa5fa3e8 "This is the image title")
 ```
 
-![This is where you put the alt](https://images.unsplash.com/photo-1520085601670-ee14aa5fa3e8 "This is the image title")
+![This is where you put the alt](http://images.unsplash.com/photo-1520085601670-ee14aa5fa3e8 "This is the image title")

@@ -1,10 +1,10 @@
-# Ananke, A theme for [Hugo](https://gohugo.io/), a framework for building websites.
+# Ananke, A theme for [Hugo](http://gohugo.io/), a framework for building websites.
 
 The intent of this theme is to provide a solid starting place for Hugo sites with basic features and include best practices for performance, accessibility, and rapid development.
 
-![screenshot](https://raw.githubusercontent.com/budparr/gohugo-theme-ananke/master/images/screenshot.png)
+![screenshot](http://raw.githubusercontent.com/budparr/gohugo-theme-ananke/master/images/screenshot.png)
 
-[DEMO](https://gohugo-ananke-theme-demo.netlify.com/)
+[DEMO](http://gohugo-ananke-theme-demo.netlify.com/)
 
 Features
 
@@ -39,16 +39,16 @@ Also includes examples of Hugo Features or Functions:
 - `len`
 - Conditionals
 - `ge` (greater than or equal to)
-- `.Site.Params.mainSections` to avoid hard-coding "blog," etc. [[release note](https://github.com/spf13/hugo/blob/66ec6305f6cb450ddf9c489854146bac02f7dca1/docs/content/meta/release-notes.md#enhancements)]
+- `.Site.Params.mainSections` to avoid hard-coding "blog," etc. [[release note](http://github.com/spf13/hugo/blob/66ec6305f6cb450ddf9c489854146bac02f7dca1/docs/content/meta/release-notes.md#enhancements)]
 
-This theme uses the "Tachyons" CSS library. This will allow you to manipulate the design of the theme by changing class names in HTML without touching the original CSS files. For more information see the [Tachyons website](https://tachyons.io/).
+This theme uses the "Tachyons" CSS library. This will allow you to manipulate the design of the theme by changing class names in HTML without touching the original CSS files. For more information see the [Tachyons website](http://tachyons.io/).
 
 ## Installation
 
 Inside the folder of your Hugo site run:
 
     $ cd themes
-    $ git clone https://github.com/budparr/gohugo-theme-ananke.git
+    $ git clone http://github.com/budparr/gohugo-theme-ananke.git
 
 For more information read the official [setup guide](//gohugo.io/overview/installing/) of Hugo.
 
@@ -58,7 +58,7 @@ After installing the theme successfully it requires a just a few more steps to g
 
 ### The config file
 
-Take a look inside the [`exampleSite`](https://github.com/budparr/gohugo-theme-ananke/tree/master/exampleSite) folder of this theme. You'll find a file called [`config.toml`](https://github.com/budparr/gohugo-theme-ananke/blob/master/exampleSite/config.toml). To use it, copy the [`config.toml`](https://github.com/budparr/gohugo-theme-ananke/blob/master/exampleSite/config.toml) in the root folder of your Hugo site. Feel free to change the strings in this theme.
+Take a look inside the [`exampleSite`](http://github.com/budparr/gohugo-theme-ananke/tree/master/exampleSite) folder of this theme. You'll find a file called [`config.toml`](http://github.com/budparr/gohugo-theme-ananke/blob/master/exampleSite/config.toml). To use it, copy the [`config.toml`](http://github.com/budparr/gohugo-theme-ananke/blob/master/exampleSite/config.toml) in the root folder of your Hugo site. Feel free to change the strings in this theme.
 
 You may need to delete the line: `themesDir = "../.."`
 
@@ -79,7 +79,7 @@ For any page or post you can add a featured image by including the local path in
 
 If you would like to hide the header text on the featured image on a page, set `omit_header_text` to `true`. See `exampleSite/content/contact.md` for an example.
 
-You don't need an image though. The default background color is black, but you can change the color, by changing the default color class in the config.toml file. Choose a background color from any on the [Tachyons](https://tachyons.io/docs/themes/skins/) library site, and preface it with "bg-"
+You don't need an image though. The default background color is black, but you can change the color, by changing the default color class in the config.toml file. Choose a background color from any on the [Tachyons](http://tachyons.io/docs/themes/skins/) library site, and preface it with "bg-"
 
 example: `background_color_class = "bg-blue"` or `background_color_class = "bg-gray"`
 
@@ -88,7 +88,7 @@ example: `background_color_class = "bg-blue"` or `background_color_class = "bg-g
 This theme includes a shortcode for a contact form that you can add to any page (there is an example on the contact page in the exampleSite folder). One option is to use [formspree.io](//formspree.io/) as proxy to send the actual email. Each month, visitors can send you up to one thousand emails without incurring extra charges. Visit the Formspree site to get the "action" link and add it to your shortcode like this:
 
 ```
-{{< form-contact action="https://formspree.io/your@email.com" >}}
+{{< form-contact action="http://formspree.io/your@email.com" >}}
 ```
 
 ### Update font or body classes
@@ -106,9 +106,9 @@ which will give you a body class like this:
 <body class="avenir bg-near-white">
 ```
 
-You can find a list of available typefaces [here](https://github.com/tachyons-css/tachyons/blob/v4.7.0/src/_font-family.css).
+You can find a list of available typefaces [here](http://github.com/tachyons-css/tachyons/blob/v4.7.0/src/_font-family.css).
 
-And a list of background colors [here](https://github.com/tachyons-css/tachyons/blob/v4.7.0/src/_skins.css#L96).
+And a list of background colors [here](http://github.com/tachyons-css/tachyons/blob/v4.7.0/src/_skins.css#L96).
 
 _n.b. in future versions we will likely separate the typeface and other body classes._
 
@@ -133,7 +133,7 @@ In order to see your site in action, run Hugo's built-in local server.
 
 `$ hugo server`
 
-Now enter [`localhost:1313`](https://localhost:1313/) in the address bar of your browser.
+Now enter [`localhost:1313`](http://localhost:1313/) in the address bar of your browser.
 
 ## Production
 
@@ -145,8 +145,8 @@ HUGO_ENV=production hugo
 
 ## Contributing
 
-If you find a bug or have an idea for a feature, feel free to use the [issue tracker](https://github.com/budparr/gohugo-theme-ananke/issues) to let me know.
+If you find a bug or have an idea for a feature, feel free to use the [issue tracker](http://github.com/budparr/gohugo-theme-ananke/issues) to let me know.
 
 TODO:
 
-- fix hard-coded link to [section](https://github.com/budparr/gohugo-theme-ananke/blob/master/layouts/index.html#L32)
+- fix hard-coded link to [section](http://github.com/budparr/gohugo-theme-ananke/blob/master/layouts/index.html#L32)

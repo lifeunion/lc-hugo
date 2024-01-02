@@ -13,12 +13,12 @@ Mathematical notation in a Hugo project can be enabled by using third party Java
 
 <!--more-->
 
-In this example we will be using [KaTeX](https://katex.org/)
+In this example we will be using [KaTeX](http://katex.org/)
 
 -   To enable KaTex globally set the parameter `math: true` in a project's configuration (`config.yml`)
 -   To enable KaTex on a per page basis include the parameter `math: true` in content files
 
-**Note:** Use the online reference of [Supported TeX Functions](https://katex.org/docs/supported.html)
+**Note:** Use the online reference of [Supported TeX Functions](http://katex.org/docs/supported.html)
 
 ### Examples
 

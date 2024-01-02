@@ -1,10 +1,10 @@
 ---
-baseURL: https://piko-heksagon.netlify.app/
+baseURL: http://piko-heksagon.netlify.app/
 languageCode: en-us
 title: Piko
 theme: piko
 paginate: "9"
-copyright: A template by [Heksagon](https://www.heksagon.net "Your most friendly developer")
+copyright: A template by [Heksagon](http://www.heksagon.net "Your most friendly developer")
 googleAnalytics: # Enter Google Analytics ie. UA-012345678-9
 enableRobotsTXT: true
 buildDrafts: false
@@ -60,7 +60,7 @@ params:
   CookieLink: /legal/privacy/#cookies-and-web-beacons
   CookieButton: Cookies Policy
   disableAnchoredHeadings: false
-  contactFormAction: # Get link from https://formsubmit.io or https://fabform.io
+  contactFormAction: # Get link from http://formsubmit.io or http://fabform.io
   assets:
     disableFingerprinting: false
     favicon: /uploads/zap.svg
@@ -109,7 +109,7 @@ params:
       alt: # image alt for better SEO
       description: Portfolio Three.
       websiteUrl: #
-  # Search Options (https://fusejs.io/)
+  # Search Options (http://fusejs.io/)
   fuseOpts:
     isCaseSensitive: false
     shouldSort: true
@@ -147,7 +147,7 @@ menus:
   - name: Github
     title: 
     pre: github
-    url: https://github.com/heksagonnet/piko
+    url: http://github.com/heksagonnet/piko
     weight: "50"
   search: # Search page's quick links
   - name: Categories

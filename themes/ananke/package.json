@@ -5,7 +5,7 @@
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/theNewDynamic/thenewdynamic.com.git"
+    "url": "git+http://github.com/theNewDynamic/thenewdynamic.com.git"
   },
   "keywords": [
     "hugo",
@@ -14,7 +14,7 @@
   "author": "budparr",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/theNewDynamic/thenewdynamic.com/issues"
+    "url": "http://github.com/theNewDynamic/thenewdynamic.com/issues"
   },
-  "homepage": "https://github.com/theNewDynamic/thenewdynamic.com#readme"
+  "homepage": "http://github.com/theNewDynamic/thenewdynamic.com#readme"
 }
