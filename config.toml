@@ -2,3 +2,4 @@ baseURL = "lc-hugo-git-main-andree-kurniawans-projects.vercel.app"
 languageCode = "en-us"
 title = "My New Hugo Site"
 theme = "piko"
+canonifyURLs = true
