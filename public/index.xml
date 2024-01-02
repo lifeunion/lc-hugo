@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>My New Hugo Site</title>
-    <link>lc-hugo-andree-kurniawans-projects.vercel.app/</link>
+    <link>lc-hugo-git-main-andree-kurniawans-projects.vercel.app/</link>
     <description>Recent content on My New Hugo Site</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 18 Jul 2019 17:18:05 +0100</lastBuildDate><atom:link href="lc-hugo-andree-kurniawans-projects.vercel.app/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 18 Jul 2019 17:18:05 +0100</lastBuildDate><atom:link href="lc-hugo-git-main-andree-kurniawans-projects.vercel.app/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>My First Post</title>
-      <link>lc-hugo-andree-kurniawans-projects.vercel.app/posts/my-first-post/</link>
+      <link>lc-hugo-git-main-andree-kurniawans-projects.vercel.app/posts/my-first-post/</link>
       <pubDate>Thu, 18 Jul 2019 17:18:05 +0100</pubDate>
       
-      <guid>lc-hugo-andree-kurniawans-projects.vercel.app/posts/my-first-post/</guid>
+      <guid>lc-hugo-git-main-andree-kurniawans-projects.vercel.app/posts/my-first-post/</guid>
       <description>Hugo on Vercel </description>
     </item>
     
