@@ -1,4 +1,4 @@
-baseURL = "lc-hugo-andree-kurniawans-projects.vercel.app"
+baseURL = "lc-hugo-andree-kurniawans-projects.vercel.app/public/"
 languageCode = "en-us"
 title = "My New Hugo Site"
 theme = "piko"
